@@ -220,7 +220,7 @@ if ! exists('g:ctab_disable_checkalign') || g:ctab_disable_checkalign==0
     try
       if a:line == line('.')
         let b:ctab_lastalign=a:line
-      else
+      elseif exists('b:ctab_lastalign')
         unlet b:ctab_lastalign
       endif
       set ts=50
