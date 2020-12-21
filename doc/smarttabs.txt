@@ -86,9 +86,6 @@ setting |g:ctab_disable_tab_maps| to any value other than "false".
 	*Todo	expand on <m-;>, <m-s-;>, o, O, <CR> and = mapping
 
 ==============================================================================
-LICENSE                                                    *smarttabs-license*
-
-==============================================================================
 FUNCTIONS                                                *smarttabs-functions*
 
                                                                 *:RetabIndent*
