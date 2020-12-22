@@ -66,7 +66,7 @@ CONFIGURATION                                        *smarttabs-configuration*
   disable the filetype specific maps, see |smarttabs-comment-mappings|.
 
 *g:ctab_disable_tab_maps*
-  disable the (original) tab mappings
+  disable the (original) tab mappings, see |smarttabs-mappings|.
 
 ==============================================================================
 MAPPINGS                                                  *smarttabs-mappings*
@@ -88,7 +88,13 @@ META-SHIFT-; will start a comment at column 30.
 For `cpp` and `idl` files, a `//` is used for the comments. For `c` files,
 a `/*  */` comment is used.
 
-	*Todo	expand on o, O, <CR> and = mapping
+
+<CR> is remapped to ues the smart tabbing style.
+
+
+Normal mode maps~
+
+<o>, <O>, and {=} are remapped to reflect the smart tabbing style.
 
 ==============================================================================
 FUNCTIONS                                                *smarttabs-functions*
