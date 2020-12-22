@@ -73,7 +73,7 @@ CONFIGURATION                                        *smarttabs-configuration*
   set this to true to disable re-check of alignment
 
 *g:ctab_enable_default_filetype_maps*
-  disable the filetype specific maps
+  disable the filetype specific maps, see |smarttabs-comment-mappings|.
 
 *g:ctab_disable_tab_maps*
   disable the (original) tab mappings
@@ -81,12 +81,24 @@ CONFIGURATION                                        *smarttabs-configuration*
 ==============================================================================
 MAPPINGS                                                  *smarttabs-mappings*
 
-By default, <tab> (in insert mode) is mapped to insert tabs only if all
-preceding characters are whitespace and <BS> is mapped to use the editor tab
-settings to delete tabs or expand tabs ala smarttab. This can be disabled by
-setting |g:ctab_disable_tab_maps| to any value other than "false".
+Insert mode maps~
 
-	*Todo	expand on <m-;>, <m-s-;>, o, O, <CR> and = mapping
+By default, <tab> is mapped to insert tabs only if all preceding characters
+are whitespace and <BS> is mapped to use the editor tab settings to delete
+tabs or expand tabs ala smarttab. This can be disabled by setting
+|g:ctab_disable_tab_maps| to any value other than "false".
+
+                                                  *smarttabs-comment-mappings*
+When |ctab_enable_default_filetype_maps| is set (and not to "false"), the
+following maps are generated for `cpp`, `c` and `idl` filetypes:
+
+META-;       will start a comment at column 20.
+META-SHIFT-; will start a comment at column 30. 
+
+For `cpp` and `idl` files, a `//` is used for the comments. For `c` files,
+a `/*  */` comment is used.
+
+	*Todo	expand on o, O, <CR> and = mapping
 
 ==============================================================================
 FUNCTIONS                                                *smarttabs-functions*
