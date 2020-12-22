@@ -28,16 +28,6 @@ This script allows you to use your normal tab settings for the beginning of
 the line, and have tabs expanded as spaces anywhere else. This effectively
 distinguishes indent from alignment.
 
-- <tab> Uses editor tab settings to insert a tab at the beginning of the line
-  (before the first non-space character), and inserts spaces otherwise.
-- <BS> Uses editor tab settings to delete tabs or expanded tabs ala smarttab
-
-`:RetabIndent[!] [tabstop]` - This is similar to the `:retab` command, with
-the exception that it affects all and only whitespace at the start of the
-line, changing it to suit your current (or new) 'tabstop' and 'expandtab'
-setting.  With the bang (!) at the end, the command also strips trailing
-whitespace.
-
 ==============================================================================
 INSTALLATION                                          *smarttabs-installation*
 
