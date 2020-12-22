@@ -35,9 +35,22 @@ With the bang (!) at the end, the command also strips trailing  whitespace.
 
 ### With Patogen:
 
-	mkdir -p ~/.vim/bundle && cd ~/.vim/bundle && git clone https://github.com/dpc/vim-smarttabs.git
+```sh
+mkdir -p ~/.vim/bundle && cd ~/.vim/bundle && git clone https://github.com/dpc/vim-smarttabs.git
+```
+
+Then run `:Helptags` from within vim to add helptags for the documentation.
+
+### Using vim-plug:
+
+Add this to your `init.vim` or `.vimrc`:
+```vim
+Plug 'dpc/vim-smarttabs'
+```
+
+Then run `:PlugInstall` from within vim.
 
 ### Manually:
 
-Just copy `smarttabs.vim` into `~/.vim/plugin`.
-
+Just copy `smarttabs.vim` into `~/.vim/plugin`. Notice that this will not
+install the documentation.
