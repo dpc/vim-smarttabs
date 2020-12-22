@@ -97,7 +97,7 @@ FUNCTIONS                                                *smarttabs-functions*
 `:RetabIndent[!] [tabstop]`
   This is similar to the :retab command, with the exception that it affects
   all and only whitespace at the start of the line, changing it to suit your
-  current (or new) tabstop and expandtab setting.  With the bang (!) at the
+  current (or new) 'tabstop' and 'expandtab' setting. With the bang (!) at the
   end, the command also strips trailing whitespace.
 
                                                                  *CTabAlignTo*
