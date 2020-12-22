@@ -41,7 +41,7 @@ whitespace.
 ==============================================================================
 INSTALLATION                                          *smarttabs-installation*
 
-With Patogen~
+With Pathogen~
 >
   mkdir -p ~/.vim/bundle && cd ~/.vim/bundle && git clone https://github.com/dpc/vim-smarttabs.git
 

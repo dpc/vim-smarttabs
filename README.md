@@ -33,7 +33,7 @@ With the bang (!) at the end, the command also strips trailing  whitespace.
 
 ## Installation:
 
-### With Patogen:
+### With Pathogen:
 
 ```sh
 mkdir -p ~/.vim/bundle && cd ~/.vim/bundle && git clone https://github.com/dpc/vim-smarttabs.git
