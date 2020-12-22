@@ -37,6 +37,7 @@ With Pathogen~
 
 Then run `:Helptags` from within vim to add helptags for the documentation.
 
+
 Using vim-plug~
 
 Add this to your `init.vim` or `.vimrc`: >
@@ -47,6 +48,7 @@ And run: >
 
   :PlugInstall
 
+
 Manually~
 
 Just copy `smarttabs.vim` into `~/.vim/plugin`. Notice that this will not
@@ -54,7 +56,6 @@ install the documentation.
 
 ==============================================================================
 CONFIGURATION                                        *smarttabs-configuration*
-
 
 *g:ctab_filetype_maps*
   set this to true if script used as a filetype plugin
@@ -99,7 +100,6 @@ Normal mode maps~
 ==============================================================================
 FUNCTIONS                                                *smarttabs-functions*
 
-                                                                *:RetabIndent*
 `:RetabIndent[!] [tabstop]`
   This is similar to the :retab command, with the exception that it affects
   all and only whitespace at the start of the line, changing it to suit your
