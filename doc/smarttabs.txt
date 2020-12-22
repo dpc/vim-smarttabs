@@ -8,7 +8,7 @@ CONTENTS                                                  *smarttabs-contents*
     1. Introduction .......................... |smarttabs-introduction|
     2. Installation .......................... |smarttabs-installation|
     3. Configuration ......................... |smarttabs-configuration|
-    4. Mappings .............................. |smarttabs-mappings|
+    4. Maps .................................. |smarttabs-maps|
     5. Functions ............................. |smarttabs-functions|
     6. Changelog ............................. |smarttabs-changelog|
 
@@ -63,13 +63,13 @@ CONFIGURATION                                        *smarttabs-configuration*
   set this to true to disable re-check of alignment
 
 *g:ctab_enable_default_filetype_maps*
-  disable the filetype specific maps, see |smarttabs-comment-mappings|.
+  disable the filetype specific maps, see |smarttabs-comment-maps|.
 
 *g:ctab_disable_tab_maps*
-  disable the (original) tab mappings, see |smarttabs-mappings|.
+  disable the (original) tab maps, see |smarttabs-maps|.
 
 ==============================================================================
-MAPPINGS                                                  *smarttabs-mappings*
+MAPS                                                          *smarttabs-maps*
 
 Insert mode maps~
 
@@ -78,7 +78,7 @@ are whitespace and <BS> is mapped to use the editor tab settings to delete
 tabs or expand tabs ala smarttab. This can be disabled by setting
 |g:ctab_disable_tab_maps| to any value other than "false".
 
-                                                  *smarttabs-comment-mappings*
+                                                      *smarttabs-comment-maps*
 When |ctab_enable_default_filetype_maps| is set (and not to "false"), the
 following maps are generated for `cpp`, `c` and `idl` filetypes:
 
