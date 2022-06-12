@@ -2,9 +2,14 @@
 
 This is a github copy of [Smart Tabs : Use tabs for indent, spaces for alignment](http://www.vim.org/scripts/script.php?script_id=231) originally created by Michael Geddes.
 
-It seems author is not actively maintaining it anymore, and trivial bugs are not
-being fixed, so for convenience of mine and other people I've gave it a new
-home. I'm not a skilled Vim dev, so feel free to contact me to take it over.
+I copied it here just to be able to use it with vim plug and alikes, long time ago. I can't VimL, and
+I don't even use Vim anymore, so I only accept PRs, but don't actively maintain this library.
+
+## Alternatives
+
+* [Thyrum/vim-stabs](https://github.com/Thyrum/vim-stabs) - a redo of this library that is probably maintainer better
+
+Note: The alternatives are listed for your convenience, and I didn't do **any** researcher on them.
 
 ## Introduction (adopted from from vim.org)
 
